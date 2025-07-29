@@ -77,3 +77,8 @@ button {
 .footer-link:hover{
     text-decoration: underline;
 }
+.tangerine-bold {
+    font-family: "Tangerine", "sans-serif";
+    font-weight: 700;
+    font-style: normal;
+}
