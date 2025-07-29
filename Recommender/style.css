@@ -68,3 +68,12 @@ button {
 .destination strong {
   color: #000;
 }
+.footer-link{
+    text-decoration: none;
+    color: #374562;
+    font-weight: 500;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
