@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sriracha&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
     <!-- Navbar Here -->
     <nav class="bg-gray-100 px-8 py-7">
         <div class="flex justify-between items-center">
@@ -72,7 +72,7 @@
         });
       </script>
 <body>
-    
+    <main class="flex-grow container mx-auto px-6 py-8">
     <div class="container">
         <h1> Find Your Perfect Travel Destination</h1>
         <form id="travel-form">
@@ -96,13 +96,12 @@
     <input type="number" id="distance" />
   </label>
 
-  <button type="submit">Get Recommendations</button>
-</form>
-
+  <button type="submit">Get Recommendations</button> </form>
 <div id="results"></div>
+</main>
 <!-- Footer -->
-     <footer class="bg-gray-100 text-black">
-        <div class="container mx-auto px-14 py-4">
+     <footer class="bg-gray-100 text-black w-full">
+        <div class="py-8 text-center">
             <div class="grid md:grid-cols-12 grid-cols-1 gap-4">
                 <div class="lg:col-span-6 md:col-span-12">
                     <a href="#">
