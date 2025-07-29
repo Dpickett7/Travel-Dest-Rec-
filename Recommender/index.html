@@ -7,36 +7,47 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    
     <div class="container">
         <h1> Find Your Perfect Travel Destination</h1>
         <form id="travel-form">
-            <label> Budget
-                <input type="number" id="budget" required/>
-            </label>
+  <label> Origin:
+    <input type="text" id="origin" placeholder="Origin (e.g. CLT)" required />
+  </label>
 
-            <label> Weather Prefence:
-                <select id="Weather">
-                    <option value="warm">Warm</option>
-                    <option value="cold">Cold</option>
-                </select>
-            </label>
+  <label> Destination:
+    <input type="text" id="destination" placeholder="Destination (e.g. LAX)" required />
+  </label>
 
-            <label>Activities:
-                <input type="text" id="activities" placeholder="e.g., hiking, museums"/>
-            </label>
+  <label> Budget:
+    <input type="number" id="budget" required />
+  </label>
 
-            <label> Travel Dates:
-                <input type="date" id="travel-date"/>
-            </label>
-            
-            <label>Max Distance
-                <input type="number" id="Distance"     />       
-            </label>
-            <button type="submit"> Get Recommendations</button>
-        </form>
+  <label> Weather Preference:
+    <select id="weather">
+      <option value="warm">Warm</option>
+      <option value="cold">Cold</option>
+    </select>
+  </label>
 
-        <div id="results"></div>
-    </div>
-    <script src="script.js"></script>
+  <label> Activities:
+    <input type="text" id="activities" placeholder="e.g., hiking, museums" />
+  </label>
+
+  <label> Travel Date:
+    <input type="date" id="travel-date" required />
+  </label>
+
+  <label> Max Distance:
+    <input type="number" id="distance" />
+  </label>
+
+  <button type="submit">Get Recommendations</button>
+</form>
+
+<div id="results"></div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
